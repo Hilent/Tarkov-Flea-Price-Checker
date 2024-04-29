@@ -7,8 +7,6 @@ async function search(){
     let item = null;
     item = await requestItem(searchBar.value);
 
-    console.log(item);
-
     for(let i = 0;i<item.length;i++){
         let info = "";
 
