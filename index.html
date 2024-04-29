@@ -1,10 +1,33 @@
 <html>
 <head>
     <div id="search-container">
-        <input type="text" id="searchBar"> 
+        <input type="text" id="searchBar">
+        <div id="type-container">
+            <input id="ammo"       type="checkbox" onclick="onCheckboxClick()">Ammo
+            <input id="ammoBox"    type="checkbox" onclick="onCheckboxClick()">ammoBox
+            <input id="any"        type="checkbox" onclick="onCheckboxClick()">any
+            <input id="armor"      type="checkbox" onclick="onCheckboxClick()">armor
+            <input id="armorPlate" type="checkbox" onclick="onCheckboxClick()">armorPlate
+            <input id="backpack"   type="checkbox" onclick="onCheckboxClick()">backpack
+            <input id="barter"     type="checkbox" onclick="onCheckboxClick()">barter
+            <input id="container"  type="checkbox" onclick="onCheckboxClick()">container
+            <input id="glasses"    type="checkbox" onclick="onCheckboxClick()">glasses
+            <input id="grenade"    type="checkbox" onclick="onCheckboxClick()">grenade
+            <input id="gun"        type="checkbox" onclick="onCheckboxClick()">gun
+            <input id="headphones" type="checkbox" onclick="onCheckboxClick()">headphones
+            <input id="helmet"     type="checkbox" onclick="onCheckboxClick()">helmet
+            <input id="injectors"  type="checkbox" onclick="onCheckboxClick()">injectors
+            <input id="keys"       type="checkbox" onclick="onCheckboxClick()">keys
+            <input id="meds"       type="checkbox" onclick="onCheckboxClick()">meds
+            <input id="mods"       type="checkbox" onclick="onCheckboxClick()">mods
+            <input id="provisions" type="checkbox" onclick="onCheckboxClick()">provisions
+            <input id="rig"        type="checkbox" onclick="onCheckboxClick()">rig
+            <input id="wearable"   type="checkbox" onclick="onCheckboxClick()">wearable
+        </div> 
         <button id="searchButton" onclick="search()">Search</button>
     </div>
 
+    
     <div id="result"></div>
 </head>
 </html>

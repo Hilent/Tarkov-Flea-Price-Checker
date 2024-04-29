@@ -15,6 +15,7 @@ async function requestItem(item){
             low24hPrice
             high24hPrice
             iconLink
+            types
         }
     }`})
     })
