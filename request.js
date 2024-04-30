@@ -16,6 +16,7 @@ async function requestItem(item){
             high24hPrice
             iconLink
             types
+            wikiLink
         }
     }`})
     })
